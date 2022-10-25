@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+
+body {
+    background-image: linear-gradient(45deg, var(--cor1), 
+    var(--cor2) 70%, var(--cor3));
+    padding: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+:root {
+    --cor1: #581d88;
+    --cor2: #f762fcd3;
+    --cor3: #e9c758;
+}
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 3px solid rgb(0, 0, 0);
+}
+header > h1 {
+    text-align: center;
+    font: bolder 50px 'Comfortaa', cursive;
+    margin: 0;
+}
+nav#itens > span {
+    display: inline;
+    padding: 3px;
+    background-color: transparent;
+    font-family: 'Comfortaa', cursive;
+    color: #000000;
+    margin: 10px;
+}
+span.item:hover {
+    
+    font-weight: bolder;
+    background-image: radial-gradient( var(--cor3), transparent 80%);
+    transition-duration: .25s;
+}
+main {
+    background-color: #ffffff;
+    padding: 10px;
+    border: 3px solid black;
+    margin-top: 15px;
+    text-align: justify;
+    width: 650;
+}
+main p { /*aqui não precisa de >*/
+    line-height: 2em;
+    text-indent: 1em;
+}
+img {
+    display: block;
+    margin: auto;
+    box-shadow: 2px 5px 3px rgba(0, 0, 0, 0.164);
+}
+h2 {
+    font: bolder 20px 'Comfortaa', cursive;
+}
+main > section > article> p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #2c2c2c;
+}
+h3 {
+    font: bolder 14px 'Comfortaa', cursive;
+    text-indent: 15px;
+}
+footer {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 3px solid rgb(0, 0, 0);
+    margin-top: 15px;
+    border-bottom: 0px;
+}
+footer > div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #2c2c2c;
+    width: 30%;
+    display: inline-block;
+    padding: 5px;
+}
+#qsn:hover {
+    background-image: linear-gradient(to bottom, var(--cor1), transparent);
+    color: #ffffff;
+    text-shadow: 2px 2px 3px #00000077;
+    transition-duration: .25s;
+}
+#nr:hover {
+    background-image: linear-gradient(to bottom, var(--cor2), transparent);
+    color: #ffffff;
+    text-shadow: 2px 2px 3px #00000077;
+    transition-duration: .25s;
+}
+#js:hover {
+    background-image: linear-gradient(to bottom, var(--cor3), transparent);
+    color: #ffffff;
+    text-shadow: 2px 2px 3px #00000077;
+    transition-duration: .25s;
+}
+footer  div {
+    box-shadow: 2px 2px 3px #0000004b;
+}
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000000;
+    font-weight: 500;
+}
